@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
@@ -24,7 +23,6 @@ main {
 }
 
 section#telefone {
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,9 +39,5 @@ iframe {
     left: 22px;
     width: 269px;
     height: 471px;
-}
-
-#redes {
-
 }
 
