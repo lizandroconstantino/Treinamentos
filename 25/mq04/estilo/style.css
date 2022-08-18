@@ -63,10 +63,9 @@ img#print {display: none;}
 img#pc {display: none;}
 img#tv {display: none;}
 p {
+    padding: 20px;
     margin: auto;
-    width: 300px;
     text-align: justify;
-    line-height: 20px;
 }
 form {
     padding: 20px;

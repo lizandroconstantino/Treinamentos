@@ -9,6 +9,11 @@
     img#print {display: none;}
     img#pc {display: none;}
     img#tv {display: none;}
+    p {
+        margin: auto;
+        text-align: justify;
+        line-height: 20px;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1366px) {
     body {
@@ -19,4 +24,10 @@
     img#print {display:none;}
     img#pc    {display:block;}
     img#tv    {display:none;}
+    }
+    p {
+        margin: auto;
+        width: 300px;
+        text-align: justify;
+        line-height: 20px;
     }
