@@ -1,0 +1,98 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {   
+    height: 100vh;
+}
+body {
+    background : black url(../img/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.753);
+   padding: 20px;
+}
+header li{
+    display: inline-block;
+    font-size: 17px;
+}
+header a {
+    color: rgb(145, 143, 143);
+    padding: 10px;
+}
+header a:hover{
+    color:black;
+    border-radius: 20px;
+    background-color:rgba(145, 145, 145, 0.753);
+    transition: .5s;
+    
+}
+header a:active{
+    color: black;
+}
+main {
+    background-color: rgba(255, 255, 255, 0.753);
+    width: 80vw;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+main h1{
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+    color:rgb(145, 143, 143);
+    text-shadow: 1px 1px 1px rgb(88, 87, 87);
+}
+img {
+    display: block;
+    margin: auto;
+}
+img#phone { display: block;}
+img#tablet {display: none;}
+img#print {display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
+p {
+    padding: 20px;
+    margin: auto;
+    text-align: justify;
+}
+form {
+    padding: 20px;
+    margin: auto;
+    width: 300px;
+   display: block;
+}
+label{
+   font-weight: bolder;
+   text-shadow: 1px 1px 1px rgb(88, 87, 87);
+   color: rgb(145, 143, 143);
+}
+ form input {
+    padding: 10px;
+    height: 20px;
+    margin: auto;
+    border: 1px solid rgb(88, 87, 87) ;
+    border-radius: 8px;
+    color: rgb(145, 143, 143);
+}
+button {
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.753);
+    border-radius: 5px;
+}
+button:hover {
+    transition: .5s;
+    background-color: rgb(119, 119, 119);
+}
