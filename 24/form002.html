@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="numero">Numero</label>
+            <input type="number" name="numero1" id="numero1" min="0" max="10" required
+            oninput="isoma.innerHTML = Number(numero1.value) + Number(numero2.value)">
+        </p>
+        <p>
+            <label for="numero">Numero</label>
+            <input type="number" name="numero2" id="numero2" min="0" max="10" required
+            oninput="isoma.innerHTML = Number(numero1.value) + Number(numero2.value)">
+        </p>
+        <p>
+            <label for="isoma">Total</label>
+            <output name="isoma" id="isoma"></output>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar tudo">
+    </form>
+</body>
+</html>

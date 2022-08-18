@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário HTML</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="index.php" method="post" autocomplete="on">
+            <p>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="inome" autocomplete="username" required>
+            </p>
+
+            <p>
+                <label for="media">Média</label><br>
+                <input type="number" name="media" id="imedia" min="1" max="10" placeholder="de 0 a 10" step="0.5" required>
+            </p>
+
+            <p><label for="numero">Numero</label><br>
+            <input type="tel" name="numero"  maxlength="9">
+            </p>
+            <p><input type="date" name="data" id="data"></p>
+            <p><input type="time" name="tempo" id=""></p>
+            <p><label for="number" id="inumber"></label></p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+            <p>
+                <label for="sexm">Masculino</label>
+                <input type="radio" name="sexo" id="sexm" value="M">
+            </p> 
+            <p>
+                <label for="sexf">Feminino</label>
+                <input type="radio" name="sexo" id="sexf" value="F" checked>
+            </p>
+
+            <p>
+                <input type="checkbox" name="" id="">
+            </p>
+            <p>
+                <input type="file" name="file" id="ifiel">
+                <input type="color" name="cor" id="icor">
+            </p>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Opções</legend>
+        <label for="lista">Seleccione um Jogo</label>
+        <select name="lista" id="lista">
+            <optgroup>
+                <option value="1">Legend Of Zelda</option>
+                <option value="2">Sonic </option>
+                <option value="3">eFootball Pes 2022</option>
+            </optgroup>
+        </select>
+    </fieldset>
+</body>
+</html>
