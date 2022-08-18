@@ -64,3 +64,22 @@ p {
     text-align: justify;
     line-height: 20px;
 }
+form {
+    padding: 20px;
+    border: 1px solid red;
+    margin: auto;
+    width: 300px;
+   display: block;
+}
+label{
+   font-weight: bolder;
+   text-shadow: 1px 1px 1px rgb(88, 87, 87);
+ color: rgb(145, 143, 143);
+}
+ form input {
+    height: 20px;
+    margin: auto;
+    border: 1px solid rgb(88, 87, 87) ;
+    border-radius: 8px;
+    color: rgb(145, 143, 143);
+}
