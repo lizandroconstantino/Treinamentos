@@ -18,25 +18,21 @@
     </header>
     <main>
         <section>
-            <h1>Testando Medias Query</h1>
-            <img  id="phone" src="img/icon-phone.png" alt="">
-            <img  id="tablet" src="img/icon-tablet.png" alt="">
-            <img  id="print" src="img/icon-print.png" alt="">
-            <img  id="pc" src="img/icon-pc.png" alt="">
-            <img  id="tv" src="img/icon-tv.png" alt="">
-        </section>
-        <section>
+            <h1>Cadastre-se</h1>
             <form action="#" method="get">
                 <label for="nome">Nome </label>
-                <input type="username" name="nome" id="nome">
+                <input type="username" name="nome" id="nome" required>
                 <br>
                 <br>
                 <label for="nome">E-mai </label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
                 <br>
                 <br>
                 <label for="password">Senha</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" min="8" required >
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
